@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- aos animation -->
+    <link href="assets/css/vendors/aos.css" rel="stylesheet">
+
+    <!-- owl carousel -->
+    <link href="assets/css/vendors/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/vendors/owl.theme.default.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/vendors/hover.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <link href="assets/images/fav.png" rel="icon" type="image/png">
+    <title>大和住建 | 京都市の屋根工事・外壁リフォーム</title>
+
+</head>
+
+<body>
+
+    <div class="layout" id="top">
+        <section class="header d-none-md">
+            <div class="lg-container">
+                <div class="nav-bar">
+                    <div class="nav-brand">
+                        <a href="">
+                            <img src="assets/images/logo.svg" class="logo" alt="">
+                        </a>
+                        <span>京都の住まいを長く。美しく。</span>
+                    </div>
+                    <div class="action-btns">
+                        <a href="https://lin.ee/PZ2uYhP" class="btn btn-line">
+                            <img src="assets/images/line.png" alt="">
+                            LINEで相談する
+                        </a>
+                        <a href="mailto:daiwa-jk@nike.eonet.ne.jp" class="btn btn-mail">
+                            <img src="assets/images/mail.png" alt="">
+                            メールで相談する
+                        </a>
+                        <a href="tel:0752028975" class="btn btn-call">
+                            <img src="assets/images/call.png" alt="">
+                            <div class="call">
+                                <small>
+                                    電話で相談する
+                                </small>
+                                <span>
+                                    075-202-8975
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="header-mobile d-none-lg">
+            <div class="nav-brand">
+                <img src="assets/images/logo-sm.svg" class="logo-sm" alt="">
+            </div>
+            <button class="menu-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileOffcanvas"
+                aria-controls="mobileOffcanvas" aria-label="Open menu">
+                <svg width="35" height="39" class="menu-open" viewBox="0 0 35 39" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="35" height="2" fill="#001039" />
+                    <rect y="8" width="35" height="2" fill="#001039" />
+                    <rect y="16" width="35" height="2" fill="#001039" />
+                    <path
+                        d="M4.13269 36V28.63H5.46269L6.8127 32.36C6.9827 32.85 7.1327 33.35 7.3027 33.84H7.3527C7.5227 33.35 7.6627 32.85 7.8327 32.36L9.1627 28.63H10.5027V36H9.4227V32.36C9.4227 31.7 9.5127 30.75 9.5727 30.08H9.5327L8.9427 31.78L7.6627 35.29H6.9427L5.6527 31.78L5.0727 30.08H5.03269C5.08269 30.75 5.17269 31.7 5.17269 32.36V36H4.13269ZM12.3335 36V28.63H16.6835V29.61H13.4935V31.66H16.1935V32.64H13.4935V35.02H16.7935V36H12.3335ZM18.2296 36V28.63H19.4196L21.8596 32.96L22.6296 34.52H22.6796C22.6196 33.76 22.5296 32.87 22.5296 32.07V28.63H23.6296V36H22.4396L19.9996 31.66L19.2296 30.12H19.1796C19.2396 30.88 19.3296 31.73 19.3296 32.53V36H18.2296ZM28.1733 36.13C26.5433 36.13 25.4333 35.24 25.4333 32.84V28.63H26.5933V32.92C26.5933 34.58 27.2533 35.12 28.1733 35.12C29.1033 35.12 29.7833 34.58 29.7833 32.92V28.63H30.9033V32.84C30.9033 35.24 29.8033 36.13 28.1733 36.13Z"
+                        fill="black" />
+                </svg>
+                <svg width="35" height="45" class="menu-close" viewBox="0 0 35 45" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8.46913 28.6L7.44513 27.576L16.5011 18.552L7.44513 9.528L8.46913 8.504L17.4931 17.56L26.5171 8.504L27.5411 9.528L18.4851 18.552L27.5411 27.576L26.5171 28.6L17.4931 19.544L8.46913 28.6ZM4.13269 42V34.63H5.46269L6.8127 38.36C6.9827 38.85 7.1327 39.35 7.3027 39.84H7.3527C7.5227 39.35 7.6627 38.85 7.8327 38.36L9.1627 34.63H10.5027V42H9.4227V38.36C9.4227 37.7 9.5127 36.75 9.5727 36.08H9.5327L8.9427 37.78L7.6627 41.29H6.9427L5.6527 37.78L5.0727 36.08H5.03269C5.08269 36.75 5.17269 37.7 5.17269 38.36V42H4.13269ZM12.3335 42V34.63H16.6835V35.61H13.4935V37.66H16.1935V38.64H13.4935V41.02H16.7935V42H12.3335ZM18.2296 42V34.63H19.4196L21.8596 38.96L22.6296 40.52H22.6796C22.6196 39.76 22.5296 38.87 22.5296 38.07V34.63H23.6296V42H22.4396L19.9996 37.66L19.2296 36.12H19.1796C19.2396 36.88 19.3296 37.73 19.3296 38.53V42H18.2296ZM28.1733 42.13C26.5433 42.13 25.4333 41.24 25.4333 38.84V34.63H26.5933V38.92C26.5933 40.58 27.2533 41.12 28.1733 41.12C29.1033 41.12 29.7833 40.58 29.7833 38.92V34.63H30.9033V38.84C30.9033 41.24 29.8033 42.13 28.1733 42.13Z"
+                        fill="black" />
+                </svg>
+            </button>
+        </div>
+        <div class="offcanvas offcanvas-start mobile-offcanvas d-none-lg" tabindex="-1" id="mobileOffcanvas"
+            data-bs-backdrop="false" aria-labelledby="mobileOffcanvasLabel">
+            <div class="offcanvas-body">
+                <div class="mobile-menu-links">
+                    <a href="#reasons" data-bs-dismiss="offcanvas">大和住建が選ばれる理由</a>
+                    <a href="#services" data-bs-dismiss="offcanvas">サービス</a>
+                    <a href="#works" data-bs-dismiss="offcanvas">施工事例</a>
+                    <a href="#voice" data-bs-dismiss="offcanvas">お客様の声</a>
+                    <a href="#flow" data-bs-dismiss="offcanvas">ご相談から施工までの流れ</a>
+                    <a href="#faq" data-bs-dismiss="offcanvas">よくある質問</a>
+                </div>
+                <div class="action-btns">
+                    <a href="https://lin.ee/PZ2uYhP" class="btn btn-line">
+                        <img src="assets/images/line.png" alt="">
+                        LINEでの無料相談はこちら
+                    </a>
+                    <a href="mailto:daiwa-jk@nike.eonet.ne.jp" class="btn btn-mail">
+                        <img src="assets/images/mail.png" alt="">
+                        メールでの無料相談はこちら
+                    </a>
+                    <a href="tel:0752028975" class="btn btn-call">
+                        <img src="assets/images/call.png" alt="">
+                        <div class="call">
+                            <small>
+                                電話での無料相談はこちら
+                            </small>
+                            <span>
+                                075-202-8975
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <section class="hero-section" id="home">
+            <div class="md-container">
+                <img src="assets/images/location.svg" class="location d-none-md" alt="">
+                <img src="assets/images/location-sm.png" class="location d-none-lg" alt="">
+                <h1>
+                    屋根や外壁
+                </h1>
+                <h3>
+                    最後に点検したのは
+                    <br>
+                    <span>いつ</span>ですか？
+                </h3>
+                <h5>
+                    京都市の「<b>屋根工事</b>」「<b>外壁リフォーム</b>」なら
+                    <br>
+                    <span>
+                        大和住建
+                    </span>
+                    へ。
+                </h5>
+                <div class="serve">
+                    <img src="assets/images/c1.png" alt="">
+                    <img src="assets/images/c2.png" alt="">
+                    <img src="assets/images/c3.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="welcome-section">
+            <img src="assets/images/welcome-heading.svg" class="heading" alt="">
+            <h2>
+                「無料相談・ドローン無料診断」<small>はこちら！</small>
+            </h2>
+            <h5>
+                まずは気軽にお問い合わせ下さい
+            </h5>
+            <div class="action-btns">
+                <a href="https://lin.ee/PZ2uYhP" class="btn btn-lg btn-line">
+                    <img src="assets/images/line.png" alt="">
+                    LINEでの無料相談はこちら
+                </a>
+                <a href="mailto:daiwa-jk@nike.eonet.ne.jp" class="btn btn-lg btn-mail">
+                    <img src="assets/images/mail.png" alt="">
+                    メールでの無料相談はこちら
+                </a>
+                <a href="tel:0752028975" class="btn btn-lg btn-call">
+                    <img src="assets/images/call.png" alt="">
+                    電話での無料相談はこちら
+                </a>
+            </div>
+        </section>
+        <section class="check-section">
+            <div class="md-container">
+                <div class="check-section-inner">
+                    <div class="title">
+                        Check
+                    </div>
+                    <div class="center-heading">
+                        <img src="assets/images/dron.png" class="dron" alt="">
+                        <h1>
+                            屋根の傷み<small>は、</small>
+                            <br>
+                            <span>
+                                見えないところから
+                            </span>
+                            <br class="d-none-lg">
+                            <small>始まります。</small>
+                        </h1>
+                        <br>
+                        <h5>
+                            屋根や外壁の劣化は気づきにくく、
+                            <br>
+                            放置すると<b>内部まで傷みが広がる</b>ことがあります。
+                        </h5>
+                        <img src="assets/images/group-300.png" class="group-300 d-none-md" alt="">
+                    </div>
+                    <div class="check-cards-row">
+                        <div class="row">
+                            <div class="col-lg-4 col-6">
+                                <div class="check-card">
+                                    <img src="assets/images/ch1.png" class="icon" alt="">
+                                    <div class="line"></div>
+                                    <p>
+                                        天井の<span>シミ</span>や<span>雨音</span>が気になる
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-6">
+                                <div class="check-card">
+                                    <img src="assets/images/ch2.png" class="icon" alt="">
+                                    <div class="line"></div>
+                                    <p>
+                                        屋根の<span>色あせ</span><span>ひび割れ</span>が目立つ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-6">
+                                <div class="check-card">
+                                    <img src="assets/images/ch3.png" class="icon" alt="">
+                                    <div class="line"></div>
+                                    <p>
+                                        外壁の<span>ひび割れ</span>や塗装の剥がれが気になる
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-6">
+                                <div class="check-card">
+                                    <img src="assets/images/ch4.png" class="icon" alt="">
+                                    <div class="line"></div>
+                                    <p>
+                                        築15年以上、<span>一度も点検し</span><span>ていない</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-6">
+                                <div class="check-card">
+                                    <img src="assets/images/ch5.png" class="icon" alt="">
+                                    <div class="line"></div>
+                                    <p>
+                                        台風・強風の前に<span>状態を確</span><span>認したい</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-6">
+                                <div class="check-card">
+                                    <img src="assets/images/ch6.png" class="icon" alt="">
+                                    <div class="line"></div>
+                                    <p>
+                                        <span>費用がどのくらい</span>かかるのか把握したい
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/group-303.png" class="group-303 d-none-lg w-100" alt="">
+                    <div class="warning-card">
+                        <div class="icon">
+                            <img src="assets/images/warning.png" alt="">
+                        </div>
+                        <div class="text">
+                            <div class="d-show-mobile">
+                                <h3>
+                                    雨漏りしてからでは、
+                                </h3>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <h3>
+                                    修繕範囲が広がります。
+                                </h3>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            </div>
+                            <div class="d-none-mobile">
+                                <h3>
+                                    雨漏りしてからでは、修繕範囲が広がります。
+                                </h3>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            </div>
+                            <p>
+                                早めに状態を把握しておくことが、結果的に負担を小さくします。
+                                <br>
+                                気になった今の段階で、一度確認しておくことをおすすめします。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <img src="assets/images/polygon-20.svg" class="polygon-20" alt="">
+        <section class="sufficient-section">
+            <div class="line"></div>
+            <div class="md-container">
+                <div class="text-area">
+                    <h3>
+                        まずは <br class="d-show-mobile"> <span>「状態を知る」</span>
+                        <br>
+                        だけで大丈夫です。
+                    </h3>
+                    <img src="assets/images/dronw-2.svg" class="dron-2" alt="">
+                </div>
+            </div>
+            <div class="line"></div>
+        </section>
+        <section class="offers-section">
+            <div class="md-container">
+                <div class="center-heading">
+                    <img src="assets/images/man.png" class="man" alt="">
+                    <h4>
+                        大和住建では、
+                        <br>
+                        <b> ドローンによる屋根・外壁の無料診断</b> <br class="d-show-mobile"> を行っています。
+                        <br>
+                        屋根に登らず写真で確認できるため、
+                    </h4>
+                    <h3>
+                        工事が必要かどうか分からない段階でも
+                    </h3>
+                    <h3>
+                        ご相談いただけます。
+                    </h3>
+                </div>
+                <div class="offers-cards-row">
+                    <div class="row">
+                        <div class="col-lg-3 col-6">
+                            <div class="offer-card">
+                                <div class="num">merit<span>1</span></div>
+                                <img src="assets/images/off1.png" alt="">
+                                <p>診断・お見積りは<br><b>無料</b></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="offer-card">
+                                <div class="num">merit<span>2</span></div>
+                                <img src="assets/images/off2.png" alt="">
+                                <p>ドローンで屋根を<br><b>安全に確認</b></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="offer-card">
+                                <div class="num">merit<span>3</span></div>
+                                <img src="assets/images/off3.png" alt="">
+                                <p>「まだ検討中」の段階でも<b>相談可</b></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="offer-card">
+                                <div class="num">merit<span>4</span></div>
+                                <img src="assets/images/off4.png" alt="">
+                                <p>点検後の強引な<br><b>営業はありません</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="welcome-section">
+                <img src="assets/images/welcome-heading.svg" class="heading" alt="">
+                <h2>
+                    「無料相談・ドローン無料診断」<small>はこちら！</small>
+                </h2>
+                <h5>
+                    まずは気軽にお問い合わせ下さい
+                </h5>
+                <div class="action-btns">
+                    <a href="https://lin.ee/PZ2uYhP" class="btn btn-lg btn-line">
+                        <img src="assets/images/line.png" alt="">
+                        LINEでの無料相談はこちら
+                    </a>
+                    <a href="mailto:daiwa-jk@nike.eonet.ne.jp" class="btn btn-lg btn-mail">
+                        <img src="assets/images/mail.png" alt="">
+                        メールでの無料相談はこちら
+                    </a>
+                    <a href="tel:0752028975" class="btn btn-lg btn-call">
+                        <img src="assets/images/call.png" alt="">
+                        電話での無料相談はこちら
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="reasons-section" id="reasons">
+            <div class="md-container">
+                <div class="reasons-section-inner">
+                    <div class="title">
+                        Reasons
+                    </div>
+                    <div class="center-heading">
+                        <img src="assets/images/dron.png" class="dron" alt="">
+                        <h1>
+                            大和住建が
+                            <br class="d-show-mobile">
+                            <span>
+                                選ばれる理由
+                            </span>
+                        </h1>
+                        <br>
+                        <h5>
+                            診断・お見積りから、<br class="d-show-mobile"> 施工後のアフターフォローまで。
+                            <br>
+                            <b>誠実な対応と確かな技術</b>で<br class="d-show-mobile">選ばれています。
+                        </h5>
+                    </div>
+                </div>
+                <div class="reason-card">
+                    <div class="content">
+                        <div class="heading">
+                            <h6>Reason <span>01</span></h6>
+                            <h3>
+                                ドローン診断で<br class="d-none-mobile">
+                                屋根の状態を見える化。
+                            </h3>
+                        </div>
+                        <p>
+                            写真で劣化・ひび割れ・破損を確認しながらご説明するので、<b>納得したうえで判断</b>できます。
+                        </p>
+                    </div>
+                    <div class="banner"><img src="assets/images/r1.png" alt=""></div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="banner order-1"><img src="assets/images/r2.png" alt=""></div>
+                    <div class="content order-2">
+                        <div class="heading">
+                            <h6>Reason <span>02</span></h6>
+                            <h3>
+                                診断・お見積りまで<br>
+                                無料で対応。
+                            </h3>
+                        </div>
+                        <p>
+                            まず「状態だけ見てほしい」という段階から、費用なしでご相談いただけます。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="content">
+                        <div class="heading">
+                            <h6>Reason <span>03</span></h6>
+                            <h3>
+                                万全の保証体制で、<br>
+                                施工後も続く安心を。
+                            </h3>
+                        </div>
+                        <p>
+                            工事保証・製品保証・賠償保険を完備。引き渡し後も安心してお任せいただけます。
+                        </p>
+                    </div>
+                    <div class="banner"><img src="assets/images/r3.png" alt=""></div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="banner order-1"><img src="assets/images/r4.png" alt=""></div>
+                    <div class="content order-2">
+                        <div class="heading">
+
+                            <h6>Reason <span>04</span></h6>
+                            <h3>
+                                京都市密着で、<br>
+                                迅速・丁寧に対応。
+                            </h3>
+                        </div>
+                        <p>
+                            地域の建物事情を熟知しているからこそ、的確で丁寧なご提案が可能です。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services-section" id="services">
+            <div class="md-container">
+                <div class="services-section-inner">
+                    <div class="title">
+                        Service
+                    </div>
+                    <div class="center-heading">
+                        <img src="assets/images/dron.png" class="dron" alt="">
+                        <div class="d-none-mobile">
+                            <h1>
+                                <span>屋根・外壁まわりの不安</span><small>を</small>
+                            </h1>
+                            <h2>
+                                まとめてご相談いただけます。
+                            </h2>
+                        </div>
+                        <h1 class="d-show-mobile">
+                            <span> 屋根・外壁まわりの
+                                不安</span>をまとめて
+                            <br>
+                            ご相談いただけます。
+                            <br>
+                            <br>
+                        </h1>
+                        <h5>
+                            大和住建では、屋根や外壁に関する <br class="d-show-mobile"> <b>さまざまなお悩みに対応</b> しています。
+                        </h5>
+                    </div>
+                </div>
+                <div class="w-100">
+                    <div class="row g-4">
+
+                        <!-- Service 1 -->
+                        <div class="col-lg-6">
+                            <div class="service-card">
+                                <div class="bookmark">
+                                    <small>service</small>
+                                    <span>1</span>
+                                </div>
+                                <img src="assets/images/s1.png" class="banner" alt="">
+                                <h3>ドローンで屋根調査</h3>
+                                <p>
+                                    老朽化した屋根でも、建物を傷つけず安全に調査可能。足場不要で、見えにくい場所までスピーディーに状態を確認できます。
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service 2 -->
+                        <div class="col-lg-6">
+                            <div class="service-card">
+                                <div class="bookmark">
+                                    <small>service</small>
+                                    <span>2</span>
+                                </div>
+                                <img src="assets/images/s2.png" class="banner" alt="">
+                                <h3>屋根カバー工法</h3>
+                                <p>
+                                    既存屋根の上から新しい屋根材を被せる、<b>当店イチオシの工法</b> 塗装の繰り返しより長持ちし、断熱性・防音性の向上も期待できます。
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service 3 -->
+                        <div class="col-lg-6">
+                            <div class="service-card">
+                                <div class="bookmark">
+                                    <small>service</small>
+                                    <span>3</span>
+                                </div>
+                                <img src="assets/images/s3.png" class="banner" alt="">
+                                <h3>防水工事</h3>
+                                <p>
+                                    バルコニーや屋上の塗膜の浮き・剥がれは雨漏りのサイン。現状を正確に見極め、最適な防水メンテナンスをご提案します。
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service 4 -->
+                        <div class="col-lg-6">
+                            <div class="service-card">
+                                <div class="bookmark">
+                                    <small>service</small>
+                                    <span>4</span>
+                                </div>
+                                <img src="assets/images/s4.png" class="banner" alt="">
+                                <h3>外壁の塗装工事</h3>
+                                <p>
+                                    外壁塗装は美観だけでなく、建物を雨風・紫外線から守る重要なメンテナンス。屋根工事と同時施工で、足場代をまとめて節約できます。
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="construction-guarantee">
+                    <h2>
+                        工事保証について
+                    </h2>
+                    <p>
+                        すべての工事に保証が付きます。
+                    </p>
+                    <table>
+                        <tr>
+                            <td>
+                                <h6>
+                                    対象
+                                </h6>
+                            </td>
+                            <td>
+                                <h6>
+                                    内容
+                                </h6>
+                            </td>
+                            <td>
+                                <h6>
+                                    保証期間
+                                </h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    屋根材
+                                </h5>
+                            </td>
+                            <td>
+                                <h5>
+                                    製品不具合
+                                </h5>
+                            </td>
+                            <td>
+                                <h5>
+                                    10年
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    施工部分
+                                </h5>
+                            </td>
+                            <td>
+                                <h5>
+                                    雨漏れ・ズレ・破損
+                                </h5>
+                            </td>
+                            <td>
+                                <h5>
+                                    5年
+                                </h5>
+                            </td>
+                        </tr>
+                    </table>
+                    <small class="small">
+                        製品によって追加の保証が付く場合があります。
+                        <br>
+                        事業賠償総合保険をはじめ各種保険にも加入しております。安心してお任せください。
+                    </small>
+                </div>
+                <img src="assets/images/group-301.png" class="group-301" alt="">
+            </div>
+        </section>
+        <section class="responsibility-section">
+            <div class="md-container">
+                <div class="responsibility-haeding">
+                    <img class="heading" src="assets/images/responsibility-haeding.png" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="res-1">
+                            <div class="banner">
+                                <img src="assets/images/rs1.png" alt="">
+                            </div>
+                            <div class="text">
+                                <p>
+                                    現場管理　豊田
+                                </p>
+                                <p>
+                                    親切・丁寧を心掛け、
+                                    <br>
+                                    考えて考えてご提案しています。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="res-2">
+                            <div class="text">
+                                <p>
+                                    ドローン操縦士＆現場サポート　廣田
+                                </p>
+                                <p>
+                                    押し売り・駆け引き苦手です。
+                                    <br>
+                                    真面目に正直に頑張っております。
+                                </p>
+                            </div>
+                            <div class="banner">
+                                <img src="assets/images/rs2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="rs-3">
+                            <img src="assets/images/rs3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="welcome-section">
+            <img src="assets/images/welcome-heading.svg" class="heading" alt="">
+            <h2>
+                「無料相談・ドローン無料診断」<small>はこちら！</small>
+            </h2>
+            <h5>
+                まずは気軽にお問い合わせ下さい
+            </h5>
+            <div class="action-btns">
+                <a href="https://lin.ee/PZ2uYhP" class="btn btn-lg btn-line">
+                    <img src="assets/images/line.png" alt="">
+                    LINEでの無料相談はこちら
+                </a>
+                <a href="mailto:daiwa-jk@nike.eonet.ne.jp" class="btn btn-lg btn-mail">
+                    <img src="assets/images/mail.png" alt="">
+                    メールでの無料相談はこちら
+                </a>
+                <a href="tel:0752028975" class="btn btn-lg btn-call">
+                    <img src="assets/images/call.png" alt="">
+                    電話での無料相談はこちら
+                </a>
+            </div>
+        </section>
+        <section class="works-section" id="works">
+            <div class="md-container">
+                <div class="works-section-inner">
+                    <div class="title">
+                        Works
+                    </div>
+                    <div class="center-heading">
+                        <img src="assets/images/dron.png" class="dron" alt="">
+                        <h1>
+                            施工事例
+                        </h1>
+                        <br>
+                        <h5>
+                            地域の皆様からいただいた信頼の証です
+                        </h5>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <div class="title">
+                        case <span>01</span>
+                    </div>
+                    <div class="heading d-none-mobile">
+                        【屋根葺き替え工事<span>（瓦からガルバリウム鋼板横葺へ）</span>】
+                    </div>
+                    <div class="heading d-show-mobile">
+                        【屋根葺き替え工事 】<br><span>（瓦からガルバリウム鋼板横葺へ）</span>
+                    </div>
+                    <div class="b-a-row">
+                        <div class="before-after-card">
+                            <div class="image-card">
+                                <div class="badge before">before</div>
+                                <img src="assets/images/c1-b1.png" class="banner" alt="">
+                                <img src="assets/images/c1-b2.png" class="banner" alt="">
+                            </div>
+                            <p>
+                                長年の雨漏りにより、 ブルーシー トでの応急処置が必要な状態でした。
+                            </p>
+                        </div>
+                        <svg class="center-arrow" width="35" height="70" viewBox="0 0 43 70" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M42.75 34.6406L5.52035e-07 69.2816L3.58045e-06 -0.000394782L42.75 34.6406Z"
+                                fill="#F3A900" />
+                        </svg>
+                        <div class="before-after-card">
+                            <div class="image-card">
+                                <div class="badge after">after</div>
+                                <img src="assets/images/c1-a1.png" class="banner" alt="">
+                                <img src="assets/images/c1-a2.png" class="banner" alt="">
+                            </div>
+                            <p>
+                                <b>断熱・防水機能が備わった</b>新しい屋根を敷設しました。<b>古びた雰囲気から、モダンな外観</b>へと変わりました。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <div class="title">
+                        case <span>02</span>
+                    </div>
+                    <div class="heading">
+                        【屋根カバー工法】
+                    </div>
+                    <div class="b-a-row">
+                        <div class="before-after-card">
+                            <div class="image-card">
+                                <div class="badge before">before</div>
+                                <img src="assets/images/c2-b1.png" class="banner" alt="">
+                                <img src="assets/images/c2-b2.png" class="banner" alt="">
+                            </div>
+                            <p>
+                                塗膜剥離とひび割れが進んでおり、防水性が低下して雨漏りのリスクがありました。
+                            </p>
+                        </div>
+                        <svg class="center-arrow" width="35" height="70" viewBox="0 0 43 70" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M42.75 34.6406L5.52035e-07 69.2816L3.58045e-06 -0.000394782L42.75 34.6406Z"
+                                fill="#F3A900" />
+                        </svg>
+                        <div class="before-after-card">
+                            <div class="image-card">
+                                <div class="badge after">after</div>
+                                <img src="assets/images/c2-a1.png" class="banner" alt="">
+                                <img src="assets/images/c2-a2.png" class="banner" alt="">
+                            </div>
+                            <p>
+                                <b>遮熱＋断熱＋防音にすぐれた「シルキーG2」</b>で施工しました。「<b>2階の部屋の暑さがちがいます</b>」とのお声をいただきました。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <div class="title">
+                        case <span>03</span>
+                    </div>
+                    <div class="heading">
+                        【瓦屋根 → ハイブリッド瓦】
+                    </div>
+                    <div class="b-a-row">
+                        <div class="before-after-card">
+                            <div class="image-card">
+                                <div class="badge before">before</div>
+                                <img src="assets/images/c3-b1.png" class="banner" alt="">
+                                <img src="assets/images/c3-b2.png" class="banner" alt="">
+                            </div>
+                            <p>
+                                経年による瓦のズレや割れがあり、重たい瓦で家にも負担がかかっていました。
+                            </p>
+                        </div>
+                        <svg class="center-arrow" width="35" height="70" viewBox="0 0 43 70" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M42.75 34.6406L5.52035e-07 69.2816L3.58045e-06 -0.000394782L42.75 34.6406Z"
+                                fill="#F3A900" />
+                        </svg>
+                        <div class="before-after-card">
+                            <div class="image-card">
+                                <div class="badge after">after</div>
+                                <img src="assets/images/c3-a1.png" class="banner" alt="">
+                                <img src="assets/images/c3-a2.png" class="banner" alt="">
+                            </div>
+                            <p>
+                                「重厚感」と「軽さ」をかけ備えた<b>ハイブリッド瓦を使用。耐震性が向上し、安心できるお住まい</b>になりました。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <div class="title">
+                        case <span>04</span>
+                    </div>
+                    <div class="heading d-none-mobile">
+                        【屋根カバー工法<span>（シングルからガルバ鋼板立平葺へ）</span>】
+                    </div>
+                    <div class="heading d-show-mobile">
+                        【屋根カバー工法 】<br> <span>（シングルからガルバ鋼板立平葺へ）</span>
+                    </div>
+                    <div class="b-a-row">
+                        <div class="before-after-card">
+                            <div class="image-card">
+                                <div class="badge before">before</div>
+                                <img src="assets/images/c4-b1.png" class="banner c4" alt="">
+                            </div>
+                            <p>
+                                色褪せ・ひび割れが目立ち、雨漏れが起こる可能性がありました。
+                            </p>
+                        </div>
+                        <svg class="center-arrow" width="35" height="70" viewBox="0 0 43 70" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M42.75 34.6406L5.52035e-07 69.2816L3.58045e-06 -0.000394782L42.75 34.6406Z"
+                                fill="#F3A900" />
+                        </svg>
+                        <div class="before-after-card">
+                            <div class="image-card">
+                                <div class="badge after">after</div>
+                                <img src="assets/images/c4-a1.png" class="banner c4" alt="">
+                            </div>
+                            <p>
+                                <b>雨漏りの心配がなくなり、雪止めも新設し、京都の街並みとも調和</b>した屋根になりました。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <div class="title">
+                        case <span>05</span>
+                    </div>
+                    <div class="heading d-none-mobile">
+                        【屋根カバーエ法<span>（カラーベストからガルバ鋼板横葺へ）</span>】
+                    </div>
+                    <div class="heading d-show-mobile">
+                        【屋根カバーエ法】 <br><span>（カラーベストからガルバ鋼板横葺へ）</span>
+                    </div>
+                    <div class="b-a-row">
+                        <div class="before-after-card">
+                            <div class="image-card">
+                                <div class="badge before">before</div>
+                                <img src="assets/images/c5-b1.png" class="banner" alt="">
+                                <img src="assets/images/c5-b2.png" class="banner" alt="">
+                            </div>
+                            <p>
+                                塗装の剥げや色あせなどの経年劣化が見られました。
+                            </p>
+                        </div>
+                        <svg class="center-arrow" width="35" height="70" viewBox="0 0 43 70" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M42.75 34.6406L5.52035e-07 69.2816L3.58045e-06 -0.000394782L42.75 34.6406Z"
+                                fill="#F3A900" />
+                        </svg>
+                        <div class="before-after-card">
+                            <div class="image-card">
+                                <div class="badge after">after</div>
+                                <img src="assets/images/c5-a1.png" class="banner" alt="">
+                                <img src="assets/images/c5-a2.png" class="banner" alt="">
+                            </div>
+                            <p>
+                                鮮やかなグリーン屋根により、 <b>機能面だけでなく、外観の美しさも向上</b>。将来的な<b>メンテナンス負担を軽減</b>することができました。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="voice-section" id="voice">
+            <div class="md-container">
+                <div class="voice-section-inner">
+                    <div class="title">
+                        Voice
+                    </div>
+                    <div class="center-heading">
+                        <img src="assets/images/dron.png" class="dron" alt="">
+                        <h1>
+                            お客様の声
+                        </h1>
+                        <br>
+                    </div>
+                </div>
+                <div class="voice-card">
+                    <div class="profile">
+                        <img src="assets/images/voice1.png" class="img" alt="">
+                        <p>
+                            50 代・女性
+                        </p>
+                    </div>
+                    <div class="content">
+                        <h5>
+                            写真で説明してくれたので、<br class="d-show-mobile"> 不安なく相談できました
+                        </h5>
+                        <p>
+                            最初は「工事って高そうやし、しつこい営業されたら嫌やな、、」と不安でした。
+                            <br>
+                            でも担当の方が丁寧で、屋根の状態を写真で<b>分かりやすく説明</b>してくれたので安心
+                            してお願いできました。
+                            <br>
+                            <b>近所への配慮</b>もしっかりしてくれました。
+                            <br>
+                            屋根工事をしてから <b>2 階の暑さが全然違う</b> ので、驚きです！
+                        </p>
+                    </div>
+                </div>
+                <div class="voice-card">
+                    <div class="profile">
+                        <img src="assets/images/voice2.png" class="img" alt="">
+                        <p>
+                            40 代・男性
+                        </p>
+                    </div>
+                    <div class="content">
+                        <h5>
+                            「今やるべき工事」と「まだ大丈夫な部分」を正直に教えてくれました
+                        </h5>
+                        <p>
+                            何社か見積もりをしましたが、こちらは <b>説明が一番わかりやすく、価格も納得</b>できた
+                            のでお願いしました。
+                            <br>
+                            <b>「今やるべき工事」と「まだ大丈夫な部分」を正直に教えてくれた</b>のが決め手です。
+                            <br>
+                            工事後は雨漏りの不安がなくなり満足しています。
+                        </p>
+                    </div>
+                </div>
+                <div class="voice-card">
+                    <div class="profile">
+                        <img src="assets/images/voice3.png" class="img" alt="">
+                        <p>
+                            60 代・男性
+                        </p>
+                    </div>
+                    <div class="content">
+                        <h5>
+                            地元に密着した会社さんで、安心して相談できました
+                        </h5>
+                        <p>
+                            築20 年以上経っていて、外壁のひび割れや色褪せが気になっていました。
+                            <br>
+                            地元に密着してやっている会社さんということで相談したところ、<b>対応が親切で安
+                                心感</b>がありました。
+                            <br>
+                            <b>細かい部分まで丁寧に施工</b>してくださり感謝しています。
+                            <br>
+                            家族からも「綺麗になったやん！」と好評です。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flow-section" id="flow">
+            <div class="md-container">
+                <div class="flow-section-inner">
+                    <div class="title">
+                        Flow
+                    </div>
+                    <div class="center-heading">
+                        <img src="assets/images/dron.png" class="dron" alt="">
+                        <h1>
+                            ご相談から <br class="d-show-mobile"> 施工までの流れ
+                        </h1>
+                        <br>
+                        <h5>
+                            初めての方でも安心してご利用いただけるよう、
+                            <br>
+                            ご相談からお引き渡しまで丁寧にご案内いたします。
+                        </h5>
+                    </div>
+                </div>
+                <div class="flow-col">
+                    <!-- STEP 1 -->
+                    <div class="flow-card">
+                        <div class="steps">
+                            <div class="number">
+                                STEP
+                                <span>1</span>
+                            </div>
+                            <div class="line d-none-mobile"></div>
+                            <h3 class="d-show-mobile">
+                                お問い合わせ
+                            </h3>
+                            <img src="assets/images/flow1.png" class="icon" alt="">
+                        </div>
+                        <div class="content">
+                            <h3 class="d-none-mobile">
+                                お問い合わせ
+                            </h3>
+                            <p>
+                                LINE・メール・お電話よりご相談ください。
+                                <br>
+                                「まずは点検だけ」でも歓迎です。
+                            </p>
+                        </div>
+                    </div>
+
+                    <svg width="50" height="24" viewBox="0 0 50 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24.6816 23.25L-8.57055e-05 -8.34597e-07L49.3634 3.48089e-06L24.6816 23.25Z"
+                            fill="#73999C" />
+                    </svg>
+
+                    <!-- STEP 2 -->
+                    <div class="flow-card">
+                        <div class="steps">
+                            <div class="number">
+                                STEP
+                                <span>2</span>
+                            </div>
+                            <div class="line d-none-mobile"></div>
+                            <h3 class="d-show-mobile">
+                                現地確認 <br> ドローン診断
+                            </h3>
+                            <img src="assets/images/flow2.png" class="icon" alt="">
+                        </div>
+                        <div class="content">
+                            <h3 class="d-none-mobile">
+                                現地確認・ドローン診断
+                            </h3>
+                            <p style="max-width: 600px;">
+                                建物の状態を確認し、必要に応じてドローンで屋根の状況を撮影
+                                します。
+                            </p>
+                        </div>
+                    </div>
+
+                    <svg width="50" height="24" viewBox="0 0 50 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24.6816 23.25L-8.57055e-05 -8.34597e-07L49.3634 3.48089e-06L24.6816 23.25Z"
+                            fill="#73999C" />
+                    </svg>
+
+                    <!-- STEP 3 -->
+                    <div class="flow-card">
+                        <div class="steps">
+                            <div class="number">
+                                STEP
+                                <span>3</span>
+                            </div>
+                            <div class="line d-none-mobile"></div>
+                            <h3 class="d-show-mobile">
+                                状況説明 <br>お見積もり
+                            </h3>
+                            <img src="assets/images/flow3.png" class="icon" alt="">
+                        </div>
+                        <div class="content">
+                            <h3 class=" d-none-mobile">
+                                状況説明・お見積もり
+                            </h3>
+                            <p>
+                                現状の写真と確認内容をもとに、必要な工事内容をご説明します。
+                                <br>
+                                お見積りにしっかりとご納得いただいた上で、ご契約へと進みます。
+                            </p>
+                        </div>
+                    </div>
+
+                    <svg width="50" height="24" viewBox="0 0 50 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24.6816 23.25L-8.57055e-05 -8.34597e-07L49.3634 3.48089e-06L24.6816 23.25Z"
+                            fill="#73999C" />
+                    </svg>
+
+                    <!-- STEP 4 -->
+                    <div class="flow-card">
+                        <div class="steps">
+                            <div class="number">
+                                STEP
+                                <span>4</span>
+                            </div>
+                            <div class="line d-none-mobile"></div>
+                            <h3 class="d-show-mobile">
+                                工事開始
+                            </h3>
+                            <img src="assets/images/flow4.png" class="icon" alt="">
+                        </div>
+                        <div class="content">
+                            <h3 class="d-none-mobile">
+                                工事開始
+                            </h3>
+                            <p>
+                                近隣への配慮を行いながら、丁寧に工事を進めます。
+                            </p>
+                        </div>
+                    </div>
+
+                    <svg width="50" height="24" viewBox="0 0 50 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24.6816 23.25L-8.57055e-05 -8.34597e-07L49.3634 3.48089e-06L24.6816 23.25Z"
+                            fill="#73999C" />
+                    </svg>
+
+                    <!-- STEP 5 -->
+                    <div class="flow-card">
+                        <div class="steps">
+                            <div class="number">
+                                STEP
+                                <span>5</span>
+                            </div>
+                            <div class="line d-none-mobile"></div>
+                            <h3 class="d-show-mobile">
+                                完了確認
+                            </h3>
+                            <img src="assets/images/flow5.png" class="icon" alt="">
+                        </div>
+                        <div class="content">
+                            <h3 class="d-none-mobile">
+                                完了確認
+                            </h3>
+                            <p>
+                                工事後の状態をご確認いただき、完了となります。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq-section" id="faq">
+            <div class="md-container">
+                <div class="faq-section-inner">
+                    <div class="title">
+                        FAQ
+                    </div>
+                    <div class="center-heading">
+                        <img src="assets/images/dron.png" class="dron" alt="">
+                        <h1>
+                            よくある質問
+                        </h1>
+                        <br>
+                    </div>
+                </div>
+                <div class="accordion faq-accordion" id="faqAccordion">
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                <span class="q-label">Q</span>
+                                点検だけでも相談できますか？
+                            </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>
+                                    はい。まずは屋根や外壁の状態を確認したいというご相談も歓迎です。
+                                    <br>
+                                    早めに状態を確認しておくことで、必要な対応を判断しやすくなります。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                <span class="q-label">Q</span>
+                                ドローン診断は無料ですか？
+                            </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>
+                                    ドローン診断・お見積りまで、すべて無料です。建物の状況により確認方法が異なる場合が
+                                    ありますので、まずはご相談ください。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                <span class="q-label">Q</span>
+                                すぐに工事を依頼しないといけませんか？
+                            </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>
+                                    いいえ。状態を確認したうえで、必要な工事内容をご説明します。ご納得いただいてから
+                                    ご判断ください。強引に工事をすすめることは一切ございません。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                <span class="q-label">Q</span>
+                                小さな修理でも相談できますか？
+                            </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>
+                                    はい。大きな工事だけでなく、小さな修繕や気になる箇所の確認もご相談ください。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                <span class="q-label">Q</span>
+                                対応エリアはどこですか？
+                            </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="faq5"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>
+                                    京都市を中心に対応しています。詳しい対応可否については、お問い合わせ時にご確認く
+                                    ださい。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="time-to-check-section">
+            <div class="md-container">
+                <div class="ttc-card">
+                    <h1>
+                        「少し気になる・・」が、
+                        <br>
+                        <b>
+                            屋根・外壁を確認するタイミングです！
+                        </b>
+                    </h1>
+                    <h4>
+                        屋根や外壁は、ご自身では見えにくい場所だからこそ、
+                        <br class="d-none-mobile">
+                        少しでも気になったら <b>早めにご相談いただくことが大切</b>です。
+                        <br>
+                        <b>「まずは点検だけ」というご相談も大歓迎</b>。
+                        <br>
+                        当社では、<b>「ドローンによる無料診断・お見積り」</b> を実施しております。
+                        <br>
+                        どうぞ <b>お気軽にお問い合わせください</b>。
+                    </h4>
+                </div>
+                <div class="action-btns">
+                    <a href="https://lin.ee/PZ2uYhP" class="btn btn-lg btn-line">
+                        <img src="assets/images/line.png" alt="">
+                        LINEでの無料相談はこちら
+                    </a>
+                    <a href="mailto:daiwa-jk@nike.eonet.ne.jp" class="btn btn-lg btn-mail">
+                        <img src="assets/images/mail.png" alt="">
+                        メールでの無料相談はこちら
+                    </a>
+                    <a href="tel:0752028975" class="btn btn-lg btn-call">
+                        <img src="assets/images/call.png" alt="">
+                        電話での無料相談はこちら
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="footer" id="contact">
+            <div class="md-container">
+                <div class="line d-show-mobile"></div>
+                <div class="f-row">
+                    <div class="content">
+                        <img src="assets/images/f-logo.svg" class="logo" alt="">
+                        <p>
+                            住所：〒603-8214　京都市北区紫野雲林院町４番地３
+                        </p>
+                        <p>
+                            TEL：075-202-8975
+                        </p>
+                        <p>
+                            メールアドレス：daiwa-jk@nike.eonet.ne.jp
+                        </p>
+                    </div>
+                    <div class="vector">
+                        <img src="assets/images/footer-vector.png" class="v-desktop" alt="">
+                        <img src="assets/images/footer-vector-sm.png" class="w-100 d-show-mobile" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom">
+            <span>
+                Copyright©株式会社大和住建
+            </span>
+        </section>
+        <section class="bottom-btns d-show-mobile">
+            <a href="https://lin.ee/PZ2uYhP" class="btn btn-line">LINEで相談する</a>
+            <a href="tel:0752028975" class="btn btn-call">
+                電話で相談する
+                <br>
+                075-202-8975
+            </a>
+            <a href="mailto:daiwa-jk@nike.eonet.ne.jp" class="btn btn-mail">メールで相談する</a>
+        </section>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/jquery.min.js"></script>
+    <script src="assets/js/vendors/aos.js"></script>
+    <script src="assets/js/vendors/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
